@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "lineUserId": "U-client-001",
+      "role": "client",
+      "displayName": "林先生",
+      "clientId": "client-lin",
+      "matterIds": ["matter-lin-contract"],
+      "status": "active"
+    },
+    {
+      "lineUserId": "U-secretary-001",
+      "role": "secretary",
+      "displayName": "陳秘書",
+      "status": "active"
+    },
+    {
+      "lineUserId": "U-lawyer-001",
+      "role": "lawyer",
+      "displayName": "周律師",
+      "status": "active"
+    },
+    {
+      "lineUserId": "U-guest-001",
+      "role": "guest",
+      "displayName": "訪客",
+      "status": "unknown"
+    }
+  ]
+}

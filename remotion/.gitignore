@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Keep the final lecture assets, ignore temporary render checks.
+out/*
+!out/legal-radar.mp4
+!out/legal-radar-preview.png

@@ -1,0 +1,59 @@
+{
+  "month": "2026-06",
+  "records": [
+    {
+      "date": "2026-06-03",
+      "lawyer": "周律師",
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "hours": 1.5,
+      "description": "審閱 AI 供應商主約與資料處理條款",
+      "billable": true
+    },
+    {
+      "date": "2026-06-06",
+      "lawyer": "周律師",
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "hours": 2.0,
+      "description": "整理風險清單並標註需客戶決策事項",
+      "billable": true
+    },
+    {
+      "date": "2026-06-12",
+      "lawyer": "林律師",
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "hours": 0.8,
+      "description": "電話",
+      "billable": true
+    },
+    {
+      "date": "2026-06-18",
+      "lawyer": "周律師",
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "hours": 3.5,
+      "description": "與客戶會議討論合約談判策略",
+      "billable": true
+    },
+    {
+      "date": "2026-06-05",
+      "lawyer": "王律師",
+      "clientId": "client-chen",
+      "matterId": "matter-chen-privacy",
+      "hours": 1.2,
+      "description": "審閱個資告知與同意書初稿",
+      "billable": true
+    },
+    {
+      "date": "2026-06-16",
+      "lawyer": "王律師",
+      "clientId": "client-chen",
+      "matterId": "matter-chen-privacy",
+      "hours": 1.0,
+      "description": "內部格式調整",
+      "billable": false
+    }
+  ]
+}

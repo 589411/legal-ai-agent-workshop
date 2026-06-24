@@ -1,0 +1,34 @@
+{
+  "lawyers": [
+    {
+      "id": "lawyer-chou",
+      "name": "周律師",
+      "practice": ["契約", "公司法", "AI 法律風險"],
+      "availableSlots": [
+        "2026-06-29 10:00",
+        "2026-06-29 15:00",
+        "2026-06-30 14:00"
+      ]
+    },
+    {
+      "id": "lawyer-wang",
+      "name": "王律師",
+      "practice": ["勞資", "個資", "資安"],
+      "availableSlots": [
+        "2026-06-30 09:30",
+        "2026-07-01 11:00"
+      ]
+    }
+  ],
+  "pendingRequests": [
+    {
+      "id": "req-001",
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "topic": "AI 供應商合約審閱",
+      "preferredWindow": "下週白天",
+      "suggestedSlots": ["2026-06-29 10:00", "2026-06-29 15:00"],
+      "requiresSecretaryApproval": true
+    }
+  ]
+}

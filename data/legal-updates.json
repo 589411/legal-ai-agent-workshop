@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-24",
+  "firm": "恩典法律事務所",
+  "items": [
+    {
+      "id": "ai-copyright-001",
+      "category": "AI / 智財",
+      "title": "生成式 AI 產出與著作權歸屬爭議",
+      "sourceType": "專文",
+      "source": "模擬：法律科技觀察週報",
+      "sourceDate": "2026-06-23",
+      "riskLevel": "medium",
+      "lawyerSummary": "客戶使用生成式 AI 製作廣告圖文時，需釐清輸入素材授權、平台條款、人工創作投入程度，以及是否可能侵害第三人作品。",
+      "clientSummary": "如果公司用 AI 產生文案或圖片，不能只看成免費素材。建議保留提示詞、素材來源與人工修改紀錄。",
+      "suggestedAction": "整理一份給企業客戶的 AI 內容使用檢查表。",
+      "needsReview": true
+    },
+    {
+      "id": "privacy-ai-002",
+      "category": "個資 / 資安",
+      "title": "員工使用外部 AI 工具處理客戶資料的內控風險",
+      "sourceType": "主管機關動態",
+      "source": "模擬：個資與資安主管機關消息",
+      "sourceDate": "2026-06-22",
+      "riskLevel": "high",
+      "lawyerSummary": "若企業員工把客戶名單、合約、病歷或財務資料輸入外部 AI 服務，可能涉及個資蒐集利用目的外使用、跨境傳輸與資安控管義務。",
+      "clientSummary": "公司導入 AI 前，應先訂內部規範：哪些資料不能貼、哪些工具可用、誰負責審核。",
+      "suggestedAction": "列入企業 AI 使用政策模板的第一優先項目。",
+      "needsReview": true
+    },
+    {
+      "id": "lawtech-003",
+      "category": "法律科技",
+      "title": "律師事務所導入 AI 助理時的保密義務",
+      "sourceType": "同業實務",
+      "source": "模擬：法律服務創新案例",
+      "sourceDate": "2026-06-21",
+      "riskLevel": "high",
+      "lawyerSummary": "AI 可協助摘要、分類與草擬，但案件事實、客戶身分、訴訟策略與未公開資料應建立權限、遮蔽與人工審核流程。",
+      "clientSummary": "AI 可以加速法律服務，但律師仍應保留專業判斷與保密責任。",
+      "suggestedAction": "在講座中作為倫理邊界案例，說明 AI 先整理、人再決定。",
+      "needsReview": true
+    },
+    {
+      "id": "contract-ai-004",
+      "category": "契約 / 商務",
+      "title": "企業委外開發 AI 系統的驗收與責任條款",
+      "sourceType": "契約範本更新",
+      "source": "模擬：商務契約實務資料庫",
+      "sourceDate": "2026-06-20",
+      "riskLevel": "medium",
+      "lawyerSummary": "AI 系統委外契約應明確定義資料來源、模型輸出責任、驗收標準、資安義務、維護期間與第三方模型供應商條款變動風險。",
+      "clientSummary": "買 AI 系統不只買功能，也要約定資料、責任、維護與供應商變動怎麼處理。",
+      "suggestedAction": "更新 AI 系統採購契約條款清單。",
+      "needsReview": false
+    }
+  ]
+}

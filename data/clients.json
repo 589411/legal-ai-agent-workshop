@@ -1,0 +1,32 @@
+{
+  "clients": [
+    {
+      "id": "client-lin",
+      "name": "林先生",
+      "company": "光禾科技股份有限公司",
+      "matters": [
+        {
+          "id": "matter-lin-contract",
+          "name": "AI 供應商合約審閱",
+          "leadLawyer": "周律師",
+          "billingContact": "finance@lightfield.example",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "client-chen",
+      "name": "陳小姐",
+      "company": "沐恩教育基金會",
+      "matters": [
+        {
+          "id": "matter-chen-privacy",
+          "name": "個資告知與同意書更新",
+          "leadLawyer": "王律師",
+          "billingContact": "admin@grace-edu.example",
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

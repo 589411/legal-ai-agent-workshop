@@ -1,0 +1,18 @@
+{
+  "payments": [
+    {
+      "clientId": "client-lin",
+      "matterId": "matter-lin-contract",
+      "invoiceId": "draft-2026-06-client-lin",
+      "status": "draft",
+      "lastNotice": null
+    },
+    {
+      "clientId": "client-chen",
+      "matterId": "matter-chen-privacy",
+      "invoiceId": "draft-2026-06-client-chen",
+      "status": "waiting-review",
+      "lastNotice": null
+    }
+  ]
+}

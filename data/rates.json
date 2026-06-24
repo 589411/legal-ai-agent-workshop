@@ -1,0 +1,14 @@
+{
+  "currency": "TWD",
+  "lawyerRates": [
+    { "lawyer": "周律師", "hourlyRate": 8000 },
+    { "lawyer": "王律師", "hourlyRate": 7000 },
+    { "lawyer": "林律師", "hourlyRate": 6000 }
+  ],
+  "billingRules": [
+    "每筆工時需有案件編號。",
+    "描述少於 6 個中文字需人工補充。",
+    "超過 3 小時的單筆工作需主持律師確認。",
+    "內部行政、重工或折讓項目不得自動請款。"
+  ]
+}
