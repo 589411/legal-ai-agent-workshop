@@ -8,13 +8,31 @@ npm run demo:web
 
 開啟 `http://127.0.0.1:4173`。工作台使用 `data/*.json` 的模擬資料，所有互動只存在瀏覽器記憶體，重新整理或按右上角重設即可復原。
 
-## Remotion 講座影片
+## 互動式講座簡報
 
-第一支影片說明每日法律雷達如何從官方來源取得新資訊、去重、摘要並送交律師確認。
+啟動同一個本機網站後，開啟：
+
+```text
+http://127.0.0.1:4173/presentation/
+```
+
+控制方式：
+
+- `→` / 空白鍵：下一個揭露或下一頁
+- `←`：上一個揭露或上一頁
+- `O`：章節索引
+- `P`：講者備註與計時
+- `F`：全螢幕
+- 簡報內可直接開啟工作台 Demo，再返回原頁
+
+## Remotion 開場與串場
+
+Remotion 不再作為講座主體，而是提供 10 秒開場鉤子與五支 4 秒章節串場。原 75 秒版本保留於 Archive composition。
 
 ```bash
 npm run video:studio
 npm run video:still
+npm run video:short
 npm run video:render
 ```
 
@@ -22,9 +40,8 @@ npm run video:render
 
 ## 目前狀態
 
-- 先確認講座大綱與展示敘事。
-- Remotion 影片/互動展示素材等使用者確認後再生成。
-- 其他 repo 只讀取，不直接修改；需要改寫的素材先複製到本工作目錄。
+- 互動式網頁簡報、工作台 Demo、Remotion 開場與串場均已建立。
+- 其他 repo 只讀取，不直接修改；改寫素材均已複製到本工作目錄。
 - 參考 repo：
   - `launchdock`
   - `launchdock-lab`
@@ -50,11 +67,12 @@ npm run video:render
 - `outline.md`：講座大綱與時間配置。
 - `demo-plan.md`：四個本機 demo 的設計與講法。
 - `runbook.md`：現場操作指令與備援方案。
-- `storyboard.md`：後續接 Remotion 或互動展示的分鏡草稿。
+- `presentation/`：33 頁互動簡報、講者備註與生成圖片。
+- `remotion/`：開場、章節串場與封存的長版影片。
+- `storyboard.md`：影片與互動展示的分鏡基礎。
 - `data/`：模擬法律事務所資料。
 - `demos/`：可直接執行的本機 CLI demo。
 - `references/`：從其他 repo 複製進來的參考素材，本專案內可自由改寫。
-- 待確認後可新增 Remotion 專案或展示腳本。
 
 ## Demo 指令
 

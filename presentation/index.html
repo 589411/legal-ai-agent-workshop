@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111915" />
+    <title>法律事務所 AI Agent 實戰課</title>
+    <link rel="stylesheet" href="/presentation/styles.css" />
+  </head>
+  <body>
+    <div class="presentation-shell">
+      <main class="stage" id="stage" aria-live="polite">
+        <section class="slide" id="slide"></section>
+        <div class="progress"><i id="progress-bar"></i></div>
+      </main>
+    </div>
+
+    <header class="chrome top-chrome">
+      <button class="brand-button" id="toc-button" title="章節索引">
+        <span class="brand-mark">恩</span>
+        <span><strong>法律事務所 AI Agent 實戰課</strong><small id="chapter-label"></small></span>
+      </button>
+      <div class="top-actions">
+        <span id="clock">00:00</span>
+        <button id="notes-button" title="講者模式">講者</button>
+        <button id="fullscreen-button" title="全螢幕">全螢幕</button>
+      </div>
+    </header>
+
+    <footer class="chrome bottom-chrome">
+      <button id="prev-button" aria-label="上一頁">←</button>
+      <div class="slide-counter"><span id="current-slide">1</span><i></i><span id="total-slides">1</span></div>
+      <button id="next-button" aria-label="下一步">→</button>
+    </footer>
+
+    <aside class="notes-panel" id="notes-panel" aria-hidden="true">
+      <header>
+        <div><small>講者模式</small><strong id="notes-title"></strong></div>
+        <button id="notes-close" aria-label="關閉講者模式">×</button>
+      </header>
+      <div class="timer">
+        <span>本段建議</span>
+        <strong id="suggested-time"></strong>
+        <span>總計時</span>
+        <strong id="elapsed-time">00:00</strong>
+      </div>
+      <div class="notes-copy" id="notes-copy"></div>
+      <div class="next-preview">
+        <small>下一頁</small>
+        <strong id="next-title"></strong>
+      </div>
+    </aside>
+
+    <dialog class="toc-dialog" id="toc-dialog">
+      <header><div><small>Course map</small><strong>章節索引</strong></div><button id="toc-close">×</button></header>
+      <nav id="toc-list"></nav>
+    </dialog>
+
+    <div class="demo-overlay" id="demo-overlay" aria-hidden="true">
+      <header>
+        <div><strong>恩典法律事務所 AI 工作台</strong><span id="demo-label"></span></div>
+        <button id="demo-close">返回簡報</button>
+      </header>
+      <iframe id="demo-frame" title="恩典法律事務所 AI 工作台"></iframe>
+    </div>
+
+    <script type="module" src="/presentation/app.js"></script>
+  </body>
+</html>

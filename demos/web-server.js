@@ -15,7 +15,11 @@ const types = {
 
 createServer((request, response) => {
   const requestPath = decodeURIComponent(new URL(request.url, `http://${request.headers.host}`).pathname);
-  const relativePath = requestPath === "/" ? "web/index.html" : requestPath.replace(/^\/+/, "");
+  const relativePath = requestPath === "/"
+    ? "web/index.html"
+    : requestPath.endsWith("/")
+      ? `${requestPath.replace(/^\/+/, "")}index.html`
+      : requestPath.replace(/^\/+/, "");
   const filePath = normalize(join(root, relativePath));
 
   if (!filePath.startsWith(root) || !existsSync(filePath) || !statSync(filePath).isFile()) {

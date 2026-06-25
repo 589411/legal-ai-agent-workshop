@@ -19,7 +19,7 @@ const data = Object.fromEntries(
 );
 
 const state = {
-  view: "overview",
+  view: new URLSearchParams(window.location.search).get("view") || "overview",
   radarFilter: "all",
   role: "client",
   appointmentApproved: false,

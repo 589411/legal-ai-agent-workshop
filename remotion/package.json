@@ -23,6 +23,7 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "render": "remotion render LegalRadar out/legal-radar.mp4",
+    "render:short": "remotion render OpeningHook out/opening-hook.mp4 && remotion render TransitionDailyRhythm out/transition-daily-rhythm.mp4 && remotion render TransitionLegalRadar out/transition-legal-radar.mp4 && remotion render TransitionIdentity out/transition-identity.mp4 && remotion render TransitionBilling out/transition-billing.mp4 && remotion render TransitionRollout out/transition-rollout.mp4",
     "still": "remotion still LegalRadar out/legal-radar-preview.png --frame=450",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"

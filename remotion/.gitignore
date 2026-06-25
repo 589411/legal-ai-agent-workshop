@@ -7,3 +7,9 @@ dist
 out/*
 !out/legal-radar.mp4
 !out/legal-radar-preview.png
+!out/opening-hook.mp4
+!out/transition-daily-rhythm.mp4
+!out/transition-legal-radar.mp4
+!out/transition-identity.mp4
+!out/transition-billing.mp4
+!out/transition-rollout.mp4

@@ -7,6 +7,7 @@
     "demo:web": "node demos/web-server.js",
     "video:studio": "npm --prefix remotion run dev",
     "video:render": "npm --prefix remotion run render",
+    "video:short": "npm --prefix remotion run render:short",
     "video:still": "npm --prefix remotion run still",
     "demo:radar": "node demos/legal-radar.js",
     "demo:line:client": "node demos/line-agent.js client \"我想約下週跟律師討論 AI 供應商合約\"",
