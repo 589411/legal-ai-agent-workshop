@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:pages": "node scripts/build-pages.js",
     "demo:web": "node demos/web-server.js",
     "video:studio": "npm --prefix remotion run dev",
     "video:render": "npm --prefix remotion run render",

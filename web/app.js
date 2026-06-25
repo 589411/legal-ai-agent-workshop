@@ -11,7 +11,7 @@ const DATA_FILES = [
 const data = Object.fromEntries(
   await Promise.all(
     DATA_FILES.map(async (name) => {
-      const response = await fetch(`/data/${name}.json`);
+      const response = await fetch(`./data/${name}.json`);
       if (!response.ok) throw new Error(`無法讀取 ${name}.json`);
       return [name, await response.json()];
     }),

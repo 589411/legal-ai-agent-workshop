@@ -1,5 +1,21 @@
 # Legal AI Agent Workshop
 
+## GitHub Pages
+
+公開展示網址：
+
+```text
+https://589411.github.io/legal-ai-agent-workshop/
+```
+
+互動簡報：
+
+```text
+https://589411.github.io/legal-ai-agent-workshop/presentation/
+```
+
+推送到 `main` 後，GitHub Actions 會執行 `npm run build:pages` 並自動部署。
+
 ## 互動展示工作台
 
 ```bash

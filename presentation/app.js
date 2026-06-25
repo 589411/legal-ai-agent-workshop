@@ -1,5 +1,5 @@
-const asset = (name) => `/presentation/assets/${name}`;
-const video = (name) => `/remotion/out/${name}`;
+const asset = (name) => `./assets/${name}`;
+const video = (name) => `../remotion/out/${name}`;
 
 const card = (number, title, copy, tone = "") => `
   <article class="card ${tone} fragment">
@@ -668,7 +668,7 @@ function previous() {
 function openDemo(view) {
   const labels = { radar: "每日法律雷達", line: "LINE 身分與排程", hours: "服務時數", billing: "帳單草稿" };
   demoLabel.textContent = labels[view] || "";
-  demoFrame.src = `/?view=${view}`;
+  demoFrame.src = `../?view=${view}`;
   demoOverlay.classList.add("open");
   demoOverlay.setAttribute("aria-hidden", "false");
 }
