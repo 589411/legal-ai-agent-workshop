@@ -9,7 +9,7 @@ await mkdir(dist, {recursive: true});
 
 await cp(new URL("../web/index.html", import.meta.url), join(dist.pathname, "index.html"));
 
-for (const directory of ["web", "data", "presentation"]) {
+for (const directory of ["web", "data", "presentation", "cloud-presentation"]) {
   await cp(new URL(`../${directory}/`, import.meta.url), new URL(`../dist/${directory}/`, import.meta.url), {
     recursive: true,
   });

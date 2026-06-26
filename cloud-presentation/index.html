@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f4ef" />
+    <title>小型法律事務所上雲說明</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="deck-shell">
+      <section class="stage" id="stage" aria-live="polite"></section>
+      <div class="progress"><i id="progress-bar"></i></div>
+    </main>
+
+    <header class="topbar">
+      <button class="brand" id="toc-button" title="章節索引">
+        <span class="brand-mark">雲</span>
+        <span><strong>小型法律事務所上雲說明</strong><small id="section-label"></small></span>
+      </button>
+      <div class="top-actions">
+        <span id="clock">00:00</span>
+        <button id="notes-button">講者</button>
+        <button id="fullscreen-button">全螢幕</button>
+      </div>
+    </header>
+
+    <footer class="bottombar">
+      <button id="prev-button" aria-label="上一頁">←</button>
+      <div class="counter"><span id="current-slide">1</span><i></i><span id="total-slides">1</span></div>
+      <button id="next-button" aria-label="下一頁">→</button>
+    </footer>
+
+    <aside class="notes-panel" id="notes-panel" aria-hidden="true">
+      <header>
+        <div><small>Speaker notes</small><strong id="notes-title"></strong></div>
+        <button id="notes-close" aria-label="關閉講者模式">×</button>
+      </header>
+      <div class="notes-meta">
+        <span>建議時間</span><strong id="suggested-time"></strong>
+      </div>
+      <div class="notes-copy" id="notes-copy"></div>
+    </aside>
+
+    <dialog class="toc-dialog" id="toc-dialog">
+      <header><div><small>Course map</small><strong>章節索引</strong></div><button id="toc-close">×</button></header>
+      <nav id="toc-list"></nav>
+    </dialog>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

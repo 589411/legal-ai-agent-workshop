@@ -14,6 +14,12 @@ https://589411.github.io/legal-ai-agent-workshop/
 https://589411.github.io/legal-ai-agent-workshop/presentation/
 ```
 
+小型法律事務所上雲說明：
+
+```text
+https://589411.github.io/legal-ai-agent-workshop/cloud-presentation/
+```
+
 推送到 `main` 後，GitHub Actions 會執行 `npm run build:pages` 並自動部署。
 
 ## 互動展示工作台
@@ -84,6 +90,7 @@ npm run video:render
 - `demo-plan.md`：四個本機 demo 的設計與講法。
 - `runbook.md`：現場操作指令與備援方案。
 - `presentation/`：33 頁互動簡報、講者備註與生成圖片。
+- `cloud-presentation/`：小型法律事務所導入 Google Workspace 的互動式網頁簡報。
 - `remotion/`：開場、章節串場與封存的長版影片。
 - `storyboard.md`：影片與互動展示的分鏡基礎。
 - `data/`：模擬法律事務所資料。
